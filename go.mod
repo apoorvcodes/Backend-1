@@ -1,4 +1,4 @@
-module github.com/TeamEvie/API
+module github.com/TeamEvie/Backend
 
 go 1.17
 
