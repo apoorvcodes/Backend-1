@@ -1,4 +1,4 @@
-# Evie API
+# Evie Backend
 
 > Slowly but surely, all Evie Related APIs will be migrated to this project.
 
