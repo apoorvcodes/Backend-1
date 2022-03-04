@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/TeamEvie/API/middlewares"
-	"github.com/TeamEvie/API/routes"
+	"github.com/TeamEvie/Backend/middlewares"
+	"github.com/TeamEvie/Backend/routes"
 	"github.com/gominima/cors"
 	"github.com/gominima/minima"
 )
