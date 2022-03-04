@@ -1,10 +1,16 @@
 package routes
 
-import "github.com/gominima/minima"
+import (
+	"github.com/TeamEvie/Backend/routes/images"
+	"github.com/gominima/minima"
+)
 
 func Router() *minima.Router {
+	/* Create a new router */
 	rt := minima.NewRouter()
-	//assign methods to routes
+	/* Define the routes */
 	rt.Get("/test/:id", TestRoute)
+	rt.Get("/sharex", images.UploadShareX)
+	/* Return the router */
 	return rt
 }
