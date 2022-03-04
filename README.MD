@@ -6,6 +6,6 @@
 
 1. Install [Go](https://golang.org/doc/install)
 2. Install Dependencies - `go get`
-3. Install Air - `curl -sSfL https://raw.githubusercontent.com/cosmtrek/air/master/install.sh | sh -s -- -b $(go env GOPATH)/bin`
+3. Install [Air](https://github.com/cosmtrek/air)
 4. Run Air - `air`
 5. Enjoy writing code with hot reloading.
