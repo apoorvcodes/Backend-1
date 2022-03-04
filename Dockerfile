@@ -8,5 +8,5 @@ RUN go mod download
 RUN go build -o main .
 RUN adduser -S -D -H -h /app appuser
 USER appuser
-EXPOSE 5000
+EXPOSE 3000
 CMD ["./main"]
